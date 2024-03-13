@@ -1,0 +1,140 @@
+\documentclass[whitelogo,openany]{tudelft-report}
+
+%% Dependencies
+% Appendices
+\usepackage[toc,page]{appendix}
+% Flexible bibliography
+\usepackage{natbib}
+
+% voor gebruik van Markdown
+%\markdownInput{example.md}
+\usepackage[hybrid]{markdown}
+
+\usepackage[dutch]{babel}
+
+% ToDo notes
+\usepackage{todonotes}
+% Enumeration
+\usepackage{nth}
+% Fancy tables
+\usepackage{tabularx}
+\usepackage{booktabs}
+% Floats
+\usepackage{float}
+% Numbers
+\usepackage{numprint}
+\npthousandsep{\,}
+% Inline lists
+\usepackage[inline]{enumitem}
+% Subfigures
+\usepackage{subcaption}
+% Correct single quotes
+\usepackage{textcomp}
+% Colored boxes
+\usepackage{tcolorbox}
+\usepackage{float}
+% Custom list spacing
+\usepackage{enumitem}
+
+%% Setup
+
+\newcommand{\detailtexcount}[1]{%
+  \immediate\write18{texcount -merge -sum -q #1.tex output.bbl > #1.wcdetail }%
+  \verbatiminput{#1.wcdetail}%
+}
+
+\newcommand{\quickwordcount}[1]{%
+  \immediate\write18{texcount -1 -sum -merge -q #1.tex output.bbl > #1-words.sum }%
+  \input{#1-words.sum} words%
+}
+ 
+\newcommand{\quickcharcount}[1]{%
+  \immediate\write18{texcount -1 -sum -merge -char -q #1.tex output.bbl > #1-chars.sum }%
+  \input{#1-chars.sum} characters (not including spaces)%
+}
+
+% Base path for all figures
+\graphicspath{ {figures/} }
+
+%%% FILL THIS IN %%%
+
+% Your title here
+\newcommand{\titel}{DI-Clutter}
+
+% Your subtitle here
+\newcommand{\subtitel}{Orde brengen in de Chaos}
+
+% Your course or project here
+\newcommand{\module}{bachelor thesis, HBO-ICT}
+
+% Your date here
+\newcommand{\datum}{01-01-2020}
+
+% Your affiliation here
+\newcommand{\organization}{lectoraat Data Intelligence}
+
+% Your names here
+\newcommand{\studentNames}{%
+Ellis Groenveld (2062294)}
+
+% Your supervisors here, don't forget title/grade and function
+\newcommand{\supervisorNames}{%
+Marcel Schmitz, senior researcher,\\
+Finn Alberts, role/function}
+
+% Your cover picture here
+% comment indien geen cover foto gewenst
+\newcommand{\omslagfoto}{cover.jpg}
+
+%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Numbering style
+\frontmatter
+
+%% Metadata
+\title[tudelft-white]{\titel}
+
+% comment onderstaande regel indien geen subtitel
+\subtitle[tudelft-black]{\subtitel}
+
+\affiliation{\organization}
+\date{\datum}
+
+% Frontmatter chapters
+\input{chapters/frontmatter/title-page.tex}
+
+% uncomment onderstaande regel voor een inhoudsopgave
+% een Extended Abstract heeft in de regel geen inhoudsopgave
+%\input{chapters/frontmatter/toc.tex}
+
+% Numbering style
+\mainmatter
+
+% Don't count these!
+%% TC:ignore
+% gebruik onderstaande ter controle
+% comment onderstaande (3 regels) in de definitieve versie
+% \quickwordcount{main}
+% \quickcharcount{main}
+% \detailtexcount{main}
+%%TC:endignore
+
+% Main chapters
+\input{chapters/body/0-abstract}
+\input{chapters/body/1-introduction}
+\input{chapters/body/2-theoretical_background}
+\input{chapters/body/3-method}
+\input{chapters/body/4-results}
+\input{chapters/body/5-discussion}
+\input{chapters/body/6-conclusion}
+
+% Appendix chapters
+\appendices
+%\bijlagen
+\input{chapters/appendix/bijlage1}
+\input{chapters/appendix/bijlage2}
+\input{chapters/appendix/references}
+
+\end{document}

@@ -1,0 +1,33 @@
+\chapter{Bijlage Voorbeeld1}
+
+You are allowed and encouraged to add screenshots and/or supporting visualizations to your report! If you feel that certain material does not fit in the main report but that it should be provided to this paper for consideration, place it here, in the appendix, and refer to it from the main report.
+
+De introductie is het eerste hoofdstuk in dit extended abstract. De introductie bestaat uit 2 paragrafen, de aanleiding en de doelstelling.
+Als je in latex op een nieuwe regel begint dan begint de tekst echter niet op een nieuwe regel.
+\\
+Wil je dat tekst op een nieuwe regel begint dan moet je een dubbele backslash gebruiken.
+
+Laat je een lege regel ertussen dan ziet latex dit als het begin van een nieuwe alinea. De eerste zin van een alinea begint op een nieuwe regel en springt in.
+Plaatjes, grafieken of schema’s kunnen zeer \underline{verhelderend} werken.
+Hier meer info over \textbf{Latex:}
+
+\emph{\url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}}.
+\\
+
+Dit is een voorbeeld van een referentie \cite{Pezze2008}, uit {\tt main.bib}.
+En hier nog een \cite{russell2016artificial}
+
+Dit is een voorbeeld van een voetnoot (bijv. een website): \footnote{\url{https://google.com}, last accessed 01/01/1970.}.
+
+En hier een voorbeeld van een tabel
+\begin{table}[H]
+\centering
+\caption{Overview of all tests, automated or manual, written and/or executed by the team}\label{tab:test-overview}
+\begin{tabularx}{\textwidth}{Xll}
+\toprule
+Short Test Description & Type & Team Member \\ \midrule
+Example test: Assert that the app calculates the score correctly when answered correctly & automated & Foo Bar \\
+... & ... & ... \\
+\bottomrule
+\end{tabularx}
+\end{table}
