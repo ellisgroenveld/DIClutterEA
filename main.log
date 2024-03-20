@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  14 MAR 2024 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.13)  20 MAR 2024 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,7 +1068,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 16.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 22.0pt on input line 16.
-<figures//cover.jpg, id=43, 7387.6pt x 4930.42pt>
+<figures//cover.jpg, id=39, 7387.6pt x 4930.42pt>
 File: figures//cover.jpg Graphic file (type jpg)
 <use figures//cover.jpg>
 Package pdftex.def Info: figures//cover.jpg  used on input line 27.
@@ -1081,7 +1081,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 63.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 18.0pt on input line 63.
-<figures//zuyd_logo2.png, id=44, 803.8833pt x 296.0661pt>
+<figures//zuyd_logo2.png, id=40, 803.8833pt x 296.0661pt>
 File: figures//zuyd_logo2.png Graphic file (type png)
 <use figures//zuyd_logo2.png>
 Package pdftex.def Info: figures//zuyd_logo2.png  used on input line 82.
@@ -1104,29 +1104,25 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/t/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 1.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 96.0pt on input line 1.
-) (./chapters/body/2-theoretical_background.tex [2
+) (./chapters/body/3-method.tex [2
 
 ]
 Chapter 2.
-) (./chapters/body/3-method.tex [3
+) (./chapters/body/4-results.tex [3
 
 ]
 Chapter 3.
-) (./chapters/body/4-results.tex [4
+) (./chapters/body/5-discussion.tex [4
 
 ]
 Chapter 4.
-) (./chapters/body/5-discussion.tex [5
+) (./chapters/body/6-conclusion.tex [5
 
 ]
 Chapter 5.
-) (./chapters/body/6-conclusion.tex [6
+) [6
 
-]
-Chapter 6.
-) [7
-
-] [8
+] [7
 
 
 ] (./chapters/appendix/bijlage1.tex
@@ -1171,30 +1167,30 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 20.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.25598pt on input line 20.
-) (./chapters/appendix/bijlage2.tex) (./chapters/appendix/references.tex (./main.bbl [9
+) (./chapters/appendix/bijlage2.tex) (./chapters/appendix/references.tex (./main.bbl [8
 
-])) [10
+])) [9
 
 ] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2F753D5FBF00AAACCB1EFA217A2A10FF;914.
+(rerunfilecheck)             Checksum: 518201C1CD3AE16F50C0473135EC22AA;783.
  ) 
 Here is how much of TeX's memory you used:
- 32088 strings out of 478287
- 615207 string characters out of 5849289
+ 32079 strings out of 478287
+ 614924 string characters out of 5849289
  865825 words of memory out of 5000000
- 49609 multiletter control sequences out of 15000+600000
+ 49605 multiletter control sequences out of 15000+600000
  568686 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,11n,103p,776b,650s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfit1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (11 pages, 4338093 bytes).
+Output written on main.pdf (10 pages, 4337628 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
